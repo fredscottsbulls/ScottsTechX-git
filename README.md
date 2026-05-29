@@ -1,67 +1,39 @@
-# ScottsTechX-git
+# 📊 ScottsTechX Git
 
-🛠️ Simple CLI Tool | Part of ScottsTechX Tool Suite
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-Version-Control-00ff88?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/Open-Source-00ff88?style=for-the-badge&logo=github&logoColor=black" alt="Open Source"/>
+</p>
 
----
-
-## About
-
-**Version control - track code changes, branches, collaborate**
-
-Official ScottsTechX tool repo — part of the [ScottsTechX Tool Installer](https://github.com/fredscottsbulls/ScottsTechX-Tool-Installer) suite.
-
-**Official Website:** https://git-scm.com
+> **Distributed version control — track changes, collaborate, manage code history.**
 
 ---
 
-## Quick Install
-
-### Via ScottsTechX Tool Installer:
+## 🚀 Quick Commands
 
 ```bash
-scotts-techx install git
+git init
+git clone https://github.com/fredscottsbulls/ScottsTechX-nmap.git
+git add .
+git commit -m "feat: initial commit"
+git push origin main
+git pull origin main
+git branch feature-branch
+git merge feature-branch
 ```
 
-### Manual Install:
+## 🔗 GitHub Workflow
 
 ```bash
-# Linux/macOS/Git Bash
-curl -fsSL https://raw.githubusercontent.com/fredscottsbulls/ScottsTechX-git/main/install.sh | bash
-
-# Windows PowerShell
-irm https://raw.githubusercontent.com/fredscottsbulls/ScottsTechX-git/main/install.ps1 | iex
+# Fork → Clone → Branch → Commit → Push → PR
+git fork fredscottsbulls/some-repo
+git clone https://github.com/YOUR_USER/some-repo.git
+git checkout -b fix/bug
+git add . && git commit -m "fix: resolve issue"
+git push origin fix/bug
+# Open Pull Request on GitHub
 ```
 
 ---
 
-## What is GIT?
-
-Version control - track code changes, branches, collaborate.
-
-For full documentation: https://git-scm.com
-
----
-
-## ScottsTechX Tool Suite (30 tools)
-
-| Category | Tools |
-|----------|-------|
-| Simple CLI | nmap, curl, wget, jq, git, python3, ffmpeg, traceroute, netcat, openssh |
-| Pentesting | hydra, sqlmap, nikto, hashcat, gobuster, searchsploit, masscan, burpsuite, ncat, Responder |
-| DevOps | docker, vim, htop, tmux, tar, make, openssl, ansible, kubectl, terraform |
-
-**[View Full Suite](https://github.com/fredscottsbulls/ScottsTechX-Tool-Installer)**
-
----
-
-## Disclaimer
-
-**For authorized use only.** Unauthorized access to computer systems is illegal.
-
----
-
-<div align="center">
-
-**ScottsTechX** | Fred Scotts | https://github.com/fredscottsbulls
-
-</div>
+MIT © 2026
